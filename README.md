@@ -1,5 +1,5 @@
 
-# TestNGCurrent
+# TestNG Selenium Learning Path
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-FF9E2C?style=for-the-badge&logo=testng&logoColor=white)
@@ -8,7 +8,7 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 ## 📝 Introduction
-Welcome to the **TestNGCurrent** repository! This project is a comprehensive training repository designed to master TestNG and Selenium WebDriver, essential tools for Java applications. This repository provides in-depth guidance on writing robust and maintainable test suites, leveraging a broad spectrum of TestNG and Selenium features. Whether you're new to testing or looking to enhance your skills, TestNGCurrent offers practical examples, detailed documentation, and a structured learning path to help you effectively automate and manage your tests.
+Welcome to the **testng-selenium-learning-path** repository! This project is a comprehensive training repository designed to master TestNG and Selenium WebDriver, essential tools for Java applications. This repository provides in-depth guidance on writing robust and maintainable test suites, leveraging a broad spectrum of TestNG and Selenium features. Whether you're new to testing or looking to enhance your skills, TestNGCurrent offers practical examples, detailed documentation, and a structured learning path to help you effectively automate and manage your tests.
 
 ## Table of Contents
 - [💡 Introduction](#introduction)
@@ -28,13 +28,13 @@ Welcome to the **TestNGCurrent** repository! This project is a comprehensive tra
 ### Cloning the Repository
 To install TestNGCurrent, clone the repository to your local machine:
 ```bash
-git clone https://github.com/ChatGTHB/TestNGCurrent.git
+git clone https://github.com/cihat-kose/testng-selenium-learning-path.git
 ```
 
 ### Importing into IntelliJ IDEA from VCS
 1. Open IntelliJ IDEA.
 2. Go to `File` > `New` > `Project from Version Control`.
-3. In the dialog, select `Git` and enter the repository URL: `https://github.com/ChatGTHB/TestNGCurrent.git`.
+3. In the dialog, select `Git` and enter the repository URL: `https://github.com/cihat-kose/testng-selenium-learning-path.git`.
 4. Click `Clone`.
 
 ### Adding Dependencies from Maven
@@ -148,7 +148,7 @@ If you encounter any issues, please refer to the following common troubleshootin
 If problems persist, you may seek help from the community or consult the official documentation for TestNG, Selenium, and Log4j2.
 
 ## 👥 Contributors
-- **ChatGTHB**: [GitHub Profile](https://github.com/ChatGTHB)
+- **cihat-kose**: [GitHub Profile](https://github.com/cihat-kose)
 
 ## 🤝 Contributing
 Contributions are welcome! Please follow these steps:
@@ -161,4 +161,4 @@ Contributions are welcome! Please follow these steps:
 ## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-For more information, visit the [TestNGCurrent repository](https://github.com/ChatGTHB/TestNGCurrent) on GitHub.
+For more information, visit the [testng-selenium-learning-path repository](https://github.com/cihat-kose/testng-selenium-learning-path) on GitHub.
