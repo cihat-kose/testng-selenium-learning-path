@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
 
-public class _07_Question extends BaseDriver {
+public class _07_LoginTest extends BaseDriver {
     /**
      Scenario:
 

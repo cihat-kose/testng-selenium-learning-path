@@ -33,10 +33,10 @@ afterClass
 public class _04_Annotations {
 
     @Test
-    public void test1() { System.out.println("test 1 done"); }
+    public void test1() { System.out.println("test1 done"); }
 
     @Test
-    public void test2() { System.out.println("test 2 done"); }
+    public void test2() { System.out.println("test2 done"); }
 
     @BeforeClass
     public void beforeClass() { System.out.println("beforeClass done"); }
