@@ -1,4 +1,4 @@
-package day06;
+package day05;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
 
-public class _01_PlaceOrderPOM extends BaseDriver {
+public class _04_PlaceOrderPOM extends BaseDriver {
 
     /**
         Scenario :
@@ -33,7 +33,7 @@ public class _01_PlaceOrderPOM extends BaseDriver {
     @Test
     public void proceedToCheckout() {
 
-        _01_PlaceOrderElements elements = new _01_PlaceOrderElements();
+        _04_PlaceOrderElements elements = new _04_PlaceOrderElements();
 
         elements.searchBox.sendKeys("ipod" + Keys.ENTER);
         elements.addToChart.click();

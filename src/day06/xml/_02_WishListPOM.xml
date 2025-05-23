@@ -1,15 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test 1">
         <parameter name="searchText" value="ipod"/>
-
         <classes>
-            <class name="day06._02_WishListPOM"/>
+            <class name="day06._02_WishListPOMParameter"/>
         </classes>
     </test>
-
-
 </suite>
 

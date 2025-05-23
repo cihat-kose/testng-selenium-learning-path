@@ -9,16 +9,16 @@ import utility.BaseDriver;
 
 import java.util.List;
 
-public class _01_GeneralQuestion extends BaseDriver {
+public class _01_GroupedListAlphabetValidationTest extends BaseDriver {
 
     /**
-     * Scenario;
-     * 1- Go to the Brands menu.
-     * 2- Verify that each brand starts with the letter above it.
-     * <p>
-     * Senaryo;
-     * 1- Brands menusune gidiniz.
-     * 2- Burada her bir markanın üstünde yer alan harf ile başladığını doğrulayınız.
+         Scenario;
+         1- Go to the Brands menu.
+         2- Verify that each brand starts with the letter above it.
+
+         Senaryo;
+         1- Brands menusune gidiniz.
+         2- Burada her bir markanın üstünde yer alan harf ile başladığını doğrulayınız.
      */
 
     @Test

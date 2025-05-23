@@ -788,3 +788,19 @@ The method has started.
 2024-10-12 23:13:26.308 INFO  searchFunction test method has finished. --> Passed
 2024-10-12 23:21:35.595 INFO  Test Method has started.
 2024-10-12 23:21:35.809 INFO  menuValidation test method has finished. --> Passed
+2025-05-23 19:50:22.811 INFO  Test Method has started.
+2025-05-23 19:50:53.396 INFO  addAddress test method has finished. --> Failed
+2025-05-23 19:52:59.939 INFO  Test Method has started.
+2025-05-23 19:53:03.725 INFO  addAddress test method has finished. --> Passed
+2025-05-23 19:53:03.730 INFO  Test Method has started.
+2025-05-23 19:53:05.392 INFO  editAddress test method has finished. --> Passed
+2025-05-23 19:53:05.394 INFO  Test Method has started.
+2025-05-23 19:53:06.557 INFO  deleteAddress test method has finished. --> Passed
+2025-05-23 19:55:07.180 INFO  Test Method has started.
+2025-05-23 19:55:08.204 INFO  searchFunction test method has finished. --> Passed
+2025-05-23 19:55:12.311 INFO  Test Method has started.
+2025-05-23 19:55:12.698 INFO  searchFunction test method has finished. --> Passed
+2025-05-23 20:02:21.489 INFO  Test Method has started.
+2025-05-23 20:02:21.735 INFO  menuValidation test method has finished. --> Passed
+2025-05-23 20:10:41.833 INFO  Test Method has started.
+2025-05-23 20:10:43.428 INFO  addToWishList test method has finished. --> Passed

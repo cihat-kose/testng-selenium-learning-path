@@ -10,7 +10,7 @@ import utility.BaseDriver;
 
 import java.util.List;
 
-public class _05_Question extends BaseDriver {
+public class _05_SearchFunctionDataProviderTest extends BaseDriver {
 
     /**
         Do the Search function that we did in the previous lessons with data provider for mac, ipod and samsung.

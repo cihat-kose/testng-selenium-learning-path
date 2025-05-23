@@ -1,12 +1,12 @@
-package day06;
+package day05;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utility.BaseDriver;
 
-public class _01_PlaceOrderElements {
-    public _01_PlaceOrderElements() {
+public class _04_PlaceOrderElements {
+    public _04_PlaceOrderElements() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
 

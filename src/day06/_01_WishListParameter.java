@@ -12,7 +12,7 @@ import utility.Tools;
 
 import java.util.List;
 
-public class _02_WishList extends BaseDriver {
+public class _01_WishListParameter extends BaseDriver {
 
     /**
         Scenario ;

@@ -1,10 +1,12 @@
 package utility;
 
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -15,21 +17,16 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class BaseDriver {
 
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
-    public static final org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
+    public static final Logger logger4j2 = LogManager.getLogger();
 
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
-        Logger logger = Logger.getLogger(""); // Get output logs.
-        logger.setLevel(Level.SEVERE);              // Show only ERRORs
-
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
         driver.manage().window().maximize(); // It maximizes the screen.
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30)); // 30 sec delay: time to load the page
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));  // 30 sec delay: time to find the element

@@ -8,7 +8,7 @@ import utility.BaseDriverParameter;
 
 import java.util.List;
 
-public class _01_Question extends BaseDriverParameter {
+public class _01_MultiBrowserDiscountTest extends BaseDriverParameter {
 
     /**
         Scenario:

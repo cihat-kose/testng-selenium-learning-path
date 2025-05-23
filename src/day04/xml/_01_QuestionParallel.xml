@@ -5,7 +5,7 @@
         <parameter name="browserType" value="edge"/>
 
         <classes>
-            <class name="day04._01_Question"/>
+            <class name="day04._01_MultiBrowserDiscountTest"/>
         </classes>
     </test>
 
@@ -13,7 +13,7 @@
         <parameter name="browserType" value="firefox"/>
 
         <classes>
-            <class name="day04._01_Question"/>
+            <class name="day04._01_MultiBrowserDiscountTest"/>
         </classes>
     </test>
 </suite>

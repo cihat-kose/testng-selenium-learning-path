@@ -1,5 +1,6 @@
 package day06;
 
+import day05._04_PlaceOrderElements;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -8,7 +9,7 @@ import org.testng.annotations.Test;
 import utility.BaseDriver;
 import utility.Tools;
 
-public class _02_WishListPOM extends BaseDriver {
+public class _02_WishListPOMParameter extends BaseDriver {
 
     /**
         Scenario ;
@@ -30,7 +31,7 @@ public class _02_WishListPOM extends BaseDriver {
     @Test
     @Parameters("searchText")
     public void addToWishList(String searchWord) {
-        _01_PlaceOrderElements poe = new _01_PlaceOrderElements();
+        _04_PlaceOrderElements poe = new _04_PlaceOrderElements();
         _02_WishListElements wle = new _02_WishListElements();
 
         poe.searchBox.sendKeys(searchWord + Keys.ENTER);

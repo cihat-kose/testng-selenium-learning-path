@@ -8,24 +8,24 @@ import utility.BaseDriver;
 
 import java.util.List;
 
-public class _02_Question extends BaseDriver {
+public class _02_HomePageDiscountCheckTest extends BaseDriver {
 
     /**
-     Scenario:
-     1- Go to the site
-     2- Click Your Store, (Go to the home page)
-     3- Check the products that are on sale (are there any discounts on all products,
-     are there old prices and new prices), find the quantity of products on sale.
-     4- After the above process, verify that the previous price of the products on sale
-     is higher than the current price.
-     -------------------------------------------------------------------------------------------------- *
-     Senaryo:
-     1- Siteye gidiniz
-     2- Your Store tiklayiniz, (Ana sayfaya gidiniz)
-     3- Cikan urun lerde (bütün ürünlerde indirim var mı, eski fiyat yeni fiyat var mı) kontrol edin,
-     indirimde olan ürünlerin miktarını bulunuz.
-     4- Yukarıdaki işlemden sonra indirimde olan ürünleri önceki fiyatının
-     şu andaki fiyattan yüksek olduğunu doğrulayınız.
+        Scenario:
+        1- Go to the site
+        2- Click Your Store, (Go to the home page)
+        3- Check the products that are on sale (are there any discounts on all products,
+        are there old prices and new prices), find the quantity of products on sale.
+        4- After the above process, verify that the previous price of the products on sale
+        is higher than the current price.
+        -------------------------------------------------------------------------------------------------- *
+        Senaryo:
+        1- Siteye gidiniz
+        2- Your Store tiklayiniz, (Ana sayfaya gidiniz)
+        3- Cikan urun lerde (bütün ürünlerde indirim var mı, eski fiyat yeni fiyat var mı) kontrol edin,
+        indirimde olan ürünlerin miktarını bulunuz.
+        4- Yukarıdaki işlemden sonra indirimde olan ürünleri önceki fiyatının
+        şu andaki fiyattan yüksek olduğunu doğrulayınız.
      */
 
     @Test

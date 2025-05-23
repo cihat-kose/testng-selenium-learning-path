@@ -9,7 +9,7 @@ import utility.BaseDriver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _07_GeneralQuestion extends BaseDriver {
+public class _07_TopMenuValidationTest extends BaseDriver {
 
     /**
         Scenario
